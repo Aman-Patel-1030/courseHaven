@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import CourseItem from "./CourseItem";
 import SectionHeader from "./SectionHeader";
 import axios from "axios";
+import { BACKEND_URL } from "../utils/utils";
 
 const CoursesPage = () => {
   const [courses, setCourses] = useState([]);
@@ -10,7 +11,7 @@ const CoursesPage = () => {
  useEffect(() => {
   const fetchCourses = async (req,res) => {
     try {
-      const res = await axios.get("http://localhost:5000/api/courses", {
+      const res = await axios.get(`${BACKEND_URL}/courses`, {
         withCredentials: true,
       });
 
