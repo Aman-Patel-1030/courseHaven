@@ -35,26 +35,26 @@ const AboutPage = () => {
     <div className="about wrapper py-12  mt-20 px-4 md:px-12">
       <SectionHeader
         span="About"
-        h2="Cordemy's Distinctive Online Learning Approach"
+        h2="CourseHaven's Distinctive Online Learning Approach"
         p="Exploring Education's Evolution, Embracing the Digital Frontier Through Online Learning's Transformative Journey."
       />
 
       <div className="grid md:grid-cols-[50%_auto] gap-14 mt-20 items-center">
         <div>
           <p className="text-lg mb-4 text-gray-600" data-aos="fade-up" data-aos-duration="1000">
-            Cordemy is an online learning platform that offers a wide range of courses in various
+            CourseHaven is an online learning platform that offers a wide range of courses in various
             fields, including Business, Technology, Creative, and Lifestyle. Our mission is to
             provide high-quality education that is accessible to everyone, regardless of their
             location or financial situation. We believe that learning should be fun, engaging, and
             relevant to real-life situations.
           </p>
           <p className="text-lg mb-4 text-gray-600" data-aos="fade-up" data-aos-duration="1000">
-            At Cordemy, we are committed to helping students achieve their goals and reach their
+            At CourseHaven, we are committed to helping students achieve their goals and reach their
             full potential. Our team of experienced instructors is dedicated to creating courses
             that are up-to-date, practical, and designed to meet the needs of today's job market.
           </p>
           <p className="text-lg text-gray-600" data-aos="fade-up" data-aos-duration="1000">
-            Overall, Cordemy is a reliable and accessible platform that offers high-quality
+            Overall, CourseHaven is a reliable and accessible platform that offers high-quality
             education to people from all walks of life. It is an excellent choice for anyone who
             wants to acquire new skills, expand their knowledge, and achieve their personal and
             professional goals.
