@@ -28,7 +28,7 @@ function Buy() {
     const fetchBuyCourseData = async () => {
       try {
         const response = await axios.post(
-          `${BACKEND_URL}courses/checkout/${courseId}`,
+          `${BACKEND_URL}/courses/checkout/${courseId}`,
           {},
           {
             headers: {
