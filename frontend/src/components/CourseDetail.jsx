@@ -12,7 +12,7 @@ const CourseDetail = () => {
   useEffect(() => {
     const fetchCourse = async () => {
       try {
-        const res = await axios.get(`{BACKEND_URL}/courses/${courseId}`);
+        const res = await axios.get(`${BACKEND_URL}/courses/${courseId}`);
         setCourse(res.data);
       } catch (err) {
         console.error("Failed to load course:", err);
