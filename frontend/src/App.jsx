@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { AuthProvider } from './components/context/AuthContext'
+
 import Home from './components/Home'
 import Login from './components/Login'
 import CourseDetail from './components/CourseDetail'
@@ -17,7 +17,7 @@ import ContactPage from './components/ContactPage';
 
 const App = () => {
   return (
-    <AuthProvider>
+ 
       <Navbar  /> 
        <div>
      <Routes>
@@ -39,7 +39,7 @@ const App = () => {
      </Routes>
 
     </div>
-    </AuthProvider>
+  
    
   )
 }
