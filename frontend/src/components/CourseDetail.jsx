@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { currencyConverter } from "../utils/currencyConverter";
+import { BACKEND_URL } from "../utils/utils";
 
 const CourseDetail = () => {
   const { courseId } = useParams();
@@ -11,7 +12,7 @@ const CourseDetail = () => {
   useEffect(() => {
     const fetchCourse = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/courses/${courseId}`);
+        const res = await axios.get(`{BACKEND_URL}/courses/${courseId}`);
         setCourse(res.data);
       } catch (err) {
         console.error("Failed to load course:", err);
