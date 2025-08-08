@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss";
+
+/* :root {
+  --foreground-rgb: 15, 23, 42;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 249, 250, 251;
+} */
+
+.bg-primary-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(8 38 116/ var(--tw-bg-opacity, 1));
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+   /* color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb)); */
+}
+.wrapper {
+  @apply container mx-auto px-5 lg:px-0;
+}
+
+/* slider */
+.slider {
+  height: calc(100vh - 5rem);
+  width: 900vw;
+  display: flex;
+  transition: 1s ease;
+  background-color: rgb(8, 38, 116)
+}
+
+.slide {
+  width: 100vw;
+  height: 100%;
+  gap: 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .testimonials {
+  overflow-y: hidden;
+}
+
+.testimonial {
+  width: 900vw;
+  overflow-x: hidden;
+  display: flex;
+  transition: 1s ease;
+  height: 100vh;
+}
+
+.testimonial-slide {
+  width: 60vw;
+} */
+
+/* .testimonial-slide::before {
+  content: "\201C";
+  position: absolute;
+  top: -2rem;
+  left: 0rem;
+  line-height: 1;
+  font-size: 6rem;
+  color: black;
+  z-index: -1000;
+} */
